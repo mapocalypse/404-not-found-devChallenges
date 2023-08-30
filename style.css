@@ -41,7 +41,6 @@ header>h1 {
   line-height: normal;
   letter-spacing: -1.92px;
   text-transform: uppercase;
-
 }
 
 .container {
@@ -121,5 +120,38 @@ footer>a {
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
+  }
+
+  header {
+    margin: 2rem 2.4rem;
+  }
+
+  .scarecrow>img {
+    width: 286px;
+    margin-left: 0;
+  }
+
+  .main {
+    margin-right: 0;
+  }
+
+  .main>h1 {
+    width: 350px;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    align-self: center;
+  }
+
+  .main>p {
+    width: 328px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    align-self: center;
+  }
+
+  .main>button {
+    margin-left: 11.5rem;
   }
 }
